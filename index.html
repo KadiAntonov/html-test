@@ -14,7 +14,7 @@
 <body>
     <header class="flex justify-between bg-white h-24">    
         <img class="ml-8 h-24 w-24 pt-6 py-6" src="https://play-lh.googleusercontent.com/YaasJsy46v32r1uVm5NhpngbzuqvwTtwo6itm503ytqiS5MMACpNKaXSQmtMTJBY8ccq">
-        <div class="flex gap-8 mt-2 text-xl text-gray-400 pt-6">
+        <div class="flex gap-8 mt-2 ml-4 text-lg text-gray-400 pt-6">
             <a href="" class="text-[#ff5000] font-semibold border-b-4 border-[#ff5000]">Osta pilet</a>
             <a href="">Sõiduplaanid</a>
             <a href="">Pileti tagastamine</a>
@@ -40,16 +40,17 @@
         </div>
     </header>
     <div class="flex flex-col justify-center items-center h-screen">
-        <h1 class="text-4xl my-12 font-semibold">Osta bussipiletid</h1>
+        <h1 class="text-4xl mb-10 font-semibold">Osta bussipiletid</h1>
         <div class="flex bg-white flex-col inset-x-2/4 w-96">
             <div class="flex justify-around my-4 uppercase text-sm font-semibold text-gray-400 border-b-2 border-gray-400">
                 <a href="" class="text-[#ff5000] font-bold border-b-4 border-[#ff5000]">Üks suund</a>
                 <a href="">Edasi-tagasi</a>
             </div>
             <div class="flex flex-col">
-                <input type="text" placeholder="Lähtepeatus" class="flex px-4 py-2 border-b-2 border-gray-400">
+                <input type="text" placeholder="Lähtepeatus" class="flex px-4 py-2 border-b-2 border-gray-400"> 
                 <input type="text" placeholder="Sihtpeatus" class="flex px-4 py-2 border-b-2 border-gray-400">
                 <input type="date" class="flex px-4 py-2 border-b-2 border-gray-400">
+                <!-- Oleks kasutanud border-b-1 neil, aga see ja border-b-3 miskipärast ei tööta mul -->
             </div>
             <div class="flex justify-center py-8 px-4">
                 <button class="flex justify-center bg-gradient-to-r from-[#ff5a3c] to-[#ff7b00] rounded-lg uppercase text-base font-bold text-white py-4 px-16">Otsi reise</button>
